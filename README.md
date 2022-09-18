@@ -1,4 +1,4 @@
-## **Active Learning** 
+# **Active Learning** 
 
 For saving image labeling costs and lifting your model performance with maximum labeling efficiency.
 <br></br>
@@ -109,7 +109,7 @@ We trained a model using RESNET50 on the Food dataset with 3 categories - Bread,
 </table>
 
 <br/><br/><br/><br/><br/><br/><br/>
-
+<br/><br/>
 
 ### **References:**
 1. modAL : https://modal-python.readthedocs.io/en/latest/content/overview/modAL-in-a-nutshell.html
