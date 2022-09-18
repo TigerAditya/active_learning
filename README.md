@@ -1,6 +1,6 @@
 ## **Active Learning** 
 
-For saving image labeling costs and lifting your model performance with maximum labeling efficiency. We can combine Deep Learning 
+For saving image labeling costs and lifting your model performance with maximum labeling efficiency.
 <br></br>
 ### **Project team**: Praveen Jesudhas, Meenakshi Morla
 ### **Developers**: Aditya Juvali
@@ -23,23 +23,23 @@ Example, say our base trained model has learned how to classify all the below im
 
 <table>
   <tr>
-    <td> <img src="./Examples/175.jpg"  alt="Vegetables-Fruits" title="Vegetables-Fruits" width = 240px height = 240px ></td>
-    <td><img src="./Examples/131.jpg"  alt="Vegetables-Fruits" title="Vegetables-Fruits"  width = 240px height = 240px ></td>
-    <td><img src="./Examples/132.jpg"  alt="Vegetables-Fruits" title="Vegetables-Fruits"  width = 240px height = 240px ></td>
+    <td> <img src="./Examples/175.jpg"  alt="Vegetables-Fruits" title="Vegetables-Fruits" width = 240px height = 426px ></td>
+    <td><img src="./Examples/131.jpg"  alt="Vegetables-Fruits" title="Vegetables-Fruits"  width = 240px height = 426px ></td>
+    <td><img src="./Examples/132.jpg"  alt="Vegetables-Fruits" title="Vegetables-Fruits"  width = 240px height = 426px ></td>
    </tr>
    <tr><td></td><td></td><td></td></tr>
    <tr>
-      <td><img src="./Examples/289.jpg"  alt="Bread" title="Bread" width = 240px height = 240px ></td>
-      <td><img src="./Examples/438.jpg"  alt="Bread" title="Bread" width = 240px height = 240px ></td>
-      <td><img src="./Examples/455.jpg"  alt="Bread" title="Bread" width = 240px height = 240px ></td>
+      <td><img src="./Examples/289.jpg"  alt="Bread" title="Bread" width = 240px height = 426px ></td>
+      <td><img src="./Examples/438.jpg"  alt="Bread" title="Bread" width = 240px height = 426px ></td>
+      <td><img src="./Examples/455.jpg"  alt="Bread" title="Bread" width = 240px height = 426px ></td>
    </tr>
 </table>
 
 Random sampling may choose images with similar features adding no value to our original model. Example of such images are - 
 <table>
   <tr>
-    <td> <img src="./Examples/127.jpg"  alt="Bread" title="Vegetables-Fruits" width = 260px height = 240px ></td>
-    <td><img src="./Examples/3.jpg"  alt="Vegetables-Fruits" title="Vegetables-Fruits"  width = 260px height = 240px ></td>
+    <td> <img src="./Examples/127.jpg"  alt="Bread" title="Vegetables-Fruits" width = 260px height = 440px ></td>
+    <td><img src="./Examples/3.jpg"  alt="Vegetables-Fruits" title="Vegetables-Fruits"  width = 260px height = 440px ></td>
    </tr>
 </table>
 
@@ -50,8 +50,8 @@ We want to select those images from the unlabeled sample which are harder for th
 Example, for the above classifier model we will teach that below images are Vegetables-Fruits and not Bread <sub>(since they contain croutons/breadcrums)</sub> - <br>
 <table>
   <tr>
-    <td> <img src="./Examples/635.jpg"  alt="Vegetables-Fruits" title="Vegetables-Fruits" width = 260px height = 240px ></td>
-    <td><img src="./Examples/109.jpg"  alt="Vegetables-Fruits" title="Vegetables-Fruits"  width = 360px height = 240px ></td>
+    <td> <img src="./Examples/635.jpg"  alt="Vegetables-Fruits" title="Vegetables-Fruits" width = 260px height = 440px ></td>
+    <td><img src="./Examples/109.jpg"  alt="Vegetables-Fruits" title="Vegetables-Fruits"  width = 360px height = 640px ></td>
    </tr>
 </table>
 
@@ -109,6 +109,7 @@ We trained a model using RESNET50 on the Food dataset with 3 categories - Bread,
 </table>
 
 <br/><br/><br/><br/><br/><br/><br/>
+
 
 ### **References:**
 1. modAL : https://modal-python.readthedocs.io/en/latest/content/overview/modAL-in-a-nutshell.html
