@@ -12,8 +12,10 @@ For saving image labeling costs and lifting your model performance with maximum 
 <br></br>
 # **Deep Active Learning for Unlabeled data**
 
-Active Learning (AL) is a method for selective labeling of images to trim down labeling costs yet boost trained model accuracy with the most detailed human labeled images. <br> Deep Learning (DL) offers capabilities to process and learn features from high dimensional data through deep Neural Networks (NN). There are many popular pre-built NN like RESNET50, vgg16, ALEXNET, etc.
-<br> A combination of DL and AL will be a robust and cost saver mechansim to deal with unlabeled data. Here is the architecture of DeepAL -<br></br> 
+Active Learning (AL) is a method for selective labeling of images to trim down labeling costs yet boost trained model accuracy with the most detailed human labeled images. Deep Learning (DL) offers capabilities to process and learn features from high dimensional data through deep Neural Networks (NN). There are many popular pre-built NN today like RESNET50, vgg16, ALEXNET, etc.
+<br> A combination of DL and AL builds a robust and cost saver mechansim to deal with unlabeled data. Here is the architecture of DeepAL -<br>
+<img src="./Examples/Architecture.jpg"  alt="Vegetables-Fruits" title="Vegetables-Fruits" width = 920px height = 1280px>
+<p style="text-align: center;"><i>Fig: Deep Active Learning Architecture</i></p>
 
 <br/>
 
@@ -60,14 +62,12 @@ Example, for the above classifier model we will teach that below images are Vege
 <br/>
 
 **Some Active Learning strategies<sup><sup>[1]</sup></sup>,**
-1.	<u>Uncertainty Sampling</u>: Selects the least sure instances for labelling.<br/>
->a.	Classifier uncertainty = 1 - P(prediction is correct)
-
-2.	<u>Entropy Sampling</u>: Selects the instances where the class probabilities have the largest entropy.<br/>
->a.	Entropy of the class probabilities. Example, Confusing predictions with higher probabilities for multiple classes will have higher entropy. Predictions with single dominating probability class will have lower entropy.
-
-3.	<u>Margin Sampling</u>: Selects the instances where the difference between the first most likely and second most likely classes are the smallest.<br/>
->a.	Margin uncertainty = the difference of the probabilities of first and second most likely predictions.
+1.	<u>Uncertainty Sampling</u>: Selects the least sure instances for labelling.<br>
+>*	Classifier uncertainty = 1 - P(prediction is correct)
+2.	<u>Entropy Sampling</u>: Selects the instances where the class probabilities have the largest entropy.<br>
+>*	Entropy of the class probabilities. Example, Confusing predictions with higher probabilities for multiple classes will have higher entropy. Predictions with single dominating probability class will have lower entropy.
+3.	<u>Margin Sampling</u>: Selects the instances where the difference between the first most likely and second most likely classes are the smallest.<br>
+>*	Margin uncertainty = the difference of the probabilities of first and second most likely predictions.
 
 <br/>
 
@@ -112,5 +112,5 @@ We trained a model using RESNET50 on the Food dataset with 3 categories - Bread,
 <br/><br/>
 
 ### **References:**
-1. modAL : https://modal-python.readthedocs.io/en/latest/content/overview/modAL-in-a-nutshell.html
-2. A Survey of Deep Active Learning : https://arxiv.org/pdf/2009.00236.pdf
+[1]. modAL : https://modal-python.readthedocs.io/en/latest/content/overview/modAL-in-a-nutshell.html <br>
+[2]. A Survey of Deep Active Learning : https://arxiv.org/pdf/2009.00236.pdf
