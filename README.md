@@ -114,3 +114,4 @@ We trained a model using RESNET50 on the Food dataset with 3 categories - Bread,
 ### **References:**
 [1]. modAL : https://modal-python.readthedocs.io/en/latest/content/overview/modAL-in-a-nutshell.html <br>
 [2]. A Survey of Deep Active Learning : https://arxiv.org/pdf/2009.00236.pdf
+[3]. Adaptive AL : https://www.cv-foundation.org/openaccess/content_cvpr_2013/papers/Li_Adaptive_Active_Learning_2013_CVPR_paper.pdf
