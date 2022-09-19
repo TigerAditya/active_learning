@@ -71,7 +71,7 @@ Example, for the above classifier model, we will teach it that below images are 
 
 <br/>
 
-### **In an Experiment on Food dataset,** [Notebook Link]
+### **In an Experiment on Food dataset,** <a href="https://github.com/TigerAditya/active_learning/blob/main/Notebooks/Active_Learning_Food3_Resnet50_v0_1.ipynb"><sub>[[Notebook Link]](https://github.com/TigerAditya/active_learning/blob/main/Notebooks/Active_Learning_Food3_Resnet50_v0_1.ipynb)</sub>
 We trained a model using RESNET50 on the Food dataset with 3 categories - Bread, Meat and Vegetables-Fruits with total dataset size of 250 images. First, we applied random sampling on this base model. We used the same original base model to try different AL query strategies to compare the performances of each samping method. Here are the metrics for comparsion - <br>
 <br>
 **Base Model f1 Score = 71%**
