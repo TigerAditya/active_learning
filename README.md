@@ -14,7 +14,7 @@ For saving image labeling costs and lifting your model performance with maximum 
 
 Active Learning (AL) is a method for selective labeling of images to trim down labeling costs yet boost trained model accuracy with the most detailed human labeled images. Deep Learning (DL) offers capabilities to process and learn features from high dimensional data through deep Neural Networks (NN). There are many popular pre-built NN today like RESNET50, vgg16, ALEXNET, etc.
 <br> A combination of DL and AL builds a robust and cost saver mechansim to deal with unlabeled data. Here is the architecture of DeepAL -<br>
-<img src="./Examples/Architecture.jpg"  alt="Architecture" width = 1280px height = 480px>
+<img src="./Examples/Architecture.jpg"  alt="Architecture" width = 1280px height = 400px>
 <p align="center"><i>Fig: Deep Active Learning Architecture</i></p>
 
 <br/>
