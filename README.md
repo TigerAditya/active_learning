@@ -71,7 +71,7 @@ Example, for the above classifier model we will teach that below images are Vege
 
 <br/>
 
-### **In an Experiment on Food dataset,**
+### **In an Experiment on Food dataset,** [Notebook Link]
 We trained a model using RESNET50 on the Food dataset with 3 categories - Bread, Meat and Vegetables-Fruits with total dataset size of 250 images. First, we applied random sampling on this base model. We used the same original base model to try different AL query strategies to compare the performances of each samping method. Here are the metrics for comparsion - <br>
 <br>
 **Base Model f1 Score = 71%**
