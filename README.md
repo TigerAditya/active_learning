@@ -37,7 +37,7 @@ Example, say our base trained model has learned how to classify all the below im
    </tr>
 </table>
 
-Random sampling may choose images with similar features adding no value to our original model. Example of such images are - 
+Random sampling may choose images with similar features adding no significant value to our original model. Example of such images are - 
 <table>
   <tr>
     <td> <img src="./Examples/127.jpg"  alt="Bread" title="Vegetables-Fruits" width = 260px height = 240px ></td>
