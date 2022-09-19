@@ -49,7 +49,7 @@ Random sampling may choose images with similar features adding no value to our o
 
 **With Active Learning,** <br>
 We want to select those images from the unlabeled sample which are harder for the base trained model to classify. Human annotator will label those top N hard images and feed them to the base pre-trained model. <br>
-Example, for the above classifier model we will teach that below images are Vegetables-Fruits and not Bread <sub>(since they contain croutons/breadcrums)</sub> - <br>
+Example, for the above classifier model, we will teach it that below images are Vegetables-Fruits and not Bread <sub>(since they contain croutons/breadcrums)</sub> - <br>
 <table>
   <tr>
     <td> <img src="./Examples/635.jpg"  alt="Vegetables-Fruits" title="Vegetables-Fruits" width = 260px height = 240px ></td>
