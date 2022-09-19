@@ -80,7 +80,7 @@ We trained a model using RESNET50 on the Food dataset with 3 categories - Bread,
     <td><b>Sampling Method</b></td>
     <td><b>Sample size</b></td>
     <td><b>f1 Score</b></td>
-    <td><b>Lift(%)</b></td>
+    <td><b>f1 Score Lift(%)</b></td>
    </tr>
   <tr>
     <td>Random Sampling</td>
