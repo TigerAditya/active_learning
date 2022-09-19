@@ -14,7 +14,7 @@ For saving image labeling costs and lifting your model performance with maximum 
 
 Active Learning (AL) is a method for selective labeling of images to trim down labeling costs yet boost trained model accuracy with the most detailed human labeled images. Deep Learning (DL) offers capabilities to process and learn features from high dimensional data through deep Neural Networks (NN). There are many popular pre-built NN today like RESNET50, vgg16, ALEXNET, etc.
 <br> A combination of DL and AL builds a robust and cost saver mechansim to deal with unlabeled data. Here is the architecture of DeepAL -<br>
-<img src="./Examples/Architecture.jpg"  alt="Architecture" width = 1280px height = 400px>
+<img src="./doc/Architecture.jpg"  alt="Architecture" width = 1280px height = 400px>
 <p align="center"><i>Fig: Deep Active Learning Architecture</i></p>
 
 <br/>
@@ -25,23 +25,23 @@ Example, say our base trained model has learned how to classify all the below im
 
 <table>
   <tr>
-    <td> <img src="./Examples/175.jpg"  alt="Vegetables-Fruits" title="Vegetables-Fruits" width = 240px height = 240px ></td>
-    <td><img src="./Examples/131.jpg"  alt="Vegetables-Fruits" title="Vegetables-Fruits"  width = 240px height = 240px ></td>
-    <td><img src="./Examples/132.jpg"  alt="Vegetables-Fruits" title="Vegetables-Fruits"  width = 240px height = 240px ></td>
+    <td> <img src="./data/samples/175.jpg"  alt="Vegetables-Fruits" title="Vegetables-Fruits" width = 240px height = 240px ></td>
+    <td><img src="./data/samples/131.jpg"  alt="Vegetables-Fruits" title="Vegetables-Fruits"  width = 240px height = 240px ></td>
+    <td><img src="./data/samples/132.jpg"  alt="Vegetables-Fruits" title="Vegetables-Fruits"  width = 240px height = 240px ></td>
    </tr>
    <tr><td></td><td></td><td></td></tr>
    <tr>
-      <td><img src="./Examples/289.jpg"  alt="Bread" title="Bread" width = 240px height = 240px ></td>
-      <td><img src="./Examples/438.jpg"  alt="Bread" title="Bread" width = 240px height = 240px ></td>
-      <td><img src="./Examples/455.jpg"  alt="Bread" title="Bread" width = 240px height = 240px ></td>
+      <td><img src="./data/samples/289.jpg"  alt="Bread" title="Bread" width = 240px height = 240px ></td>
+      <td><img src="./data/samples/438.jpg"  alt="Bread" title="Bread" width = 240px height = 240px ></td>
+      <td><img src="./data/samples/455.jpg"  alt="Bread" title="Bread" width = 240px height = 240px ></td>
    </tr>
 </table>
 
 Random sampling may choose images with similar features adding no significant value to our original model. Example of such images are - 
 <table>
   <tr>
-    <td> <img src="./Examples/127.jpg"  alt="Bread" title="Vegetables-Fruits" width = 260px height = 240px ></td>
-    <td><img src="./Examples/3.jpg"  alt="Vegetables-Fruits" title="Vegetables-Fruits"  width = 260px height = 240px ></td>
+    <td> <img src="./data/samples/127.jpg"  alt="Bread" title="Vegetables-Fruits" width = 260px height = 240px ></td>
+    <td><img src="./data/samples/3.jpg"  alt="Vegetables-Fruits" title="Vegetables-Fruits"  width = 260px height = 240px ></td>
    </tr>
 </table>
 
@@ -52,8 +52,8 @@ We want to select those images from the unlabeled pool which are harder for the 
 Example, for the above classifier model, we will teach it that below images are Vegetables-Fruits and not Bread <sub>(since they contain croutons/breadcrums)</sub> - <br>
 <table>
   <tr>
-    <td> <img src="./Examples/635.jpg"  alt="Vegetables-Fruits" title="Vegetables-Fruits" width = 260px height = 240px ></td>
-    <td><img src="./Examples/109.jpg"  alt="Vegetables-Fruits" title="Vegetables-Fruits"  width = 360px height = 240px ></td>
+    <td> <img src="./data/samples/635.jpg"  alt="Vegetables-Fruits" title="Vegetables-Fruits" width = 260px height = 240px ></td>
+    <td><img src="./data/samples/109.jpg"  alt="Vegetables-Fruits" title="Vegetables-Fruits"  width = 360px height = 240px ></td>
    </tr>
 </table>
 
