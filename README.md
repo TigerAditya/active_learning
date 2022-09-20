@@ -20,7 +20,7 @@ Active Learning (AL) is a method for selective labeling of images to trim down l
 <br/>
 
 **Traditionally,** <br>
-Images were selected randomly from the unlabeled data pool for human labeling and then fed to the base trained model, when the goal is always to improve the classification performance. This method would not give significant and consistent lift in performance because the randomly sampled images may not have complex details for incremental learning. <br>
+Images were selected randomly from the unlabeled data pool for human labeling and then fed to the base trained model, where the goal is always to improve the classification performance. This method would not give significant and consistent lift in performance because the randomly sampled images may not have complex details for incremental learning. <br>
 Example, say our base trained model has learned how to classify all the below images into Vegetables-Fruits and Bread - <br>
 
 <table>
