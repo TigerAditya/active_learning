@@ -2,7 +2,7 @@
 
 For saving image labeling costs and lifting your model performance with maximum labeling efficiency.
 <br></br>
-### **Project team**: Praveen Jesudhas, Meenakshi Morla
+### **Project team**: Meenakshi Morla, Aditya Juvali
 ### **Developers**: Aditya Juvali
 ### **Status**: under development
 <br>
