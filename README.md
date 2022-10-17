@@ -13,7 +13,7 @@ For saving image labeling costs and lifting your model performance with maximum 
 # **Deep Active Learning for Unlabeled data**
 
 Active Learning (AL) can be used to select subset of images that when annotated could significantly improve model accuracy compared to randomly sampling a subset of images. We utilize a framework which combines Deep neural networks along with Active learning to identify the images that could siginificantly improve model accuracy when annotated. Active learning based data selection is compared with random sampling of data points to benchmark the effectiveness of this approach. We could utilize this methodolgy to help select the right set of images for training.<br>
-<img src="./doc/Architecture.jpg"  alt="Architecture" width = 1280px height = 400px>
+<img src="./doc/Architecture2.jpg"  alt="Architecture" width = 1280px height = 400px>
 <p align="center"><i>Fig: Deep Active Learning Architecture</i></p>
 
 <br/>
